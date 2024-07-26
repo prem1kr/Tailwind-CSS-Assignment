@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100 flex">
+  <!-- Sidebar -->
+  <div class="h-screen w-64 bg-black text-white flex flex-col p-4">
+    <div class="mb-8">
+      <h2 class="text-2xl font-bold mb-8"><i class="fas fa-tachometer-alt mb-2"></i> Dashboard</h2>
+      <ul>
+        <li class="mb-4"><button class="w-full text-left hover:bg-gray-700 p-2 rounded"><i class="fas fa-home"></i> Dashboard</button></li>
+        <li class="mb-4"><button class="w-full text-left hover:bg-gray-700 p-2 rounded"><i class="fas fa-users"></i> Team</button></li>
+        <li class="mb-4"><button class="w-full text-left hover:bg-gray-700 p-2 rounded"><i class="fas fa-tasks"></i> Projects</button></li>
+        <li class="mb-4"><button class="w-full text-left hover:bg-gray-700 p-2 rounded"><i class="fas fa-calendar-alt"></i> Calendar</button></li>
+        <li class="mb-4"><button class="w-full text-left hover:bg-gray-700 p-2 rounded"><i class="fas fa-file-alt"></i> Documents</button></li>
+        <li class="mb-4"><button class="w-full text-left hover:bg-gray-700 p-2 rounded"><i class="fas fa-chart-line"></i> Reports</button></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-lg font-semibold mt-10">Your Teams</h3>
+      <ul>
+        <li class="mb-2 mt-3"><button class="w-full text-left hover:bg-gray-700 p-2 rounded"><i class="fas fa-user-friends"></i> PW Skills</button></li>
+        <li class="mb-2"><button class="w-full text-left hover:bg-gray-700 p-2 rounded"><i class="fas fa-flask"></i> PW Labs</button></li>
+        <li class="mb-2"><button class="w-full text-left hover:bg-gray-700 p-2 rounded"><i class="fas fa-cogs"></i> PW IOI</button></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Main content -->
+  <div class="flex-1">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+      <span class="text-xl font-semibold">Profile</span>
+      <div class="flex items-center space-x-4">
+        <button class="text-gray-600 hover:text-gray-900"><i class="fas fa-search"></i></button>
+        <button class="text-gray-600 hover:text-gray-900"><i class="fas fa-bell"></i></button>
+      </div>
+    </nav>
+    <!-- Page content -->
+    <div class="p-8">
+      <!-- Your content goes here -->
+    </div>
+  </div>
+</body>
+</html>
